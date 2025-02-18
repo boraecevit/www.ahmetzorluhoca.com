@@ -1,0 +1,464 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bora Ecevit">
+    <title>Bora Ecevit - Finans </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap');</style>
+</head>
+
+
+<body id="the-index">
+    <header>
+        <div class="logo-image-place">
+            <img src="images/logo.svg" alt="logo" class="logo">
+        </div>
+        <button aria-label="Open Navigation" class="open-nav">&#9776;</button>
+    
+        <nav class="navbar">
+            <button aria-label="Close navigation" class="close-nav">&times;</button>
+            <ul class="buttons navbar-buttons">
+                <li><a href="index.html"    target="_self" class="btn body-large-medium home active">Bora Ecevit Kimdir?</a></li>
+                <li><a href="emlak.html"    target="_self" class="btn body-large-medium about">Emlak</a></li>
+                <li><a href="finance.html"  target="_self" class="btn body-large-medium services">Finans</a></li>
+                <!-- <li><a href="eticaret.html" target="_self" class="btn body-large-medium projects">E-Ticaret</a></li> -->
+            </ul>
+        </nav>
+        
+        <a class="clickable-btn body-large-bold iletisim-btn" href="#" onclick="scrollToInquiry(); return false" >İletişim </a>
+    </header>
+
+    <!-- <div class="currency-place">
+        <div class="currency dolar-place">
+            <p class="currency-text">DOLAR</p>
+            <div class="currency-rate">
+                <p class="currency-price dolar-price">26.90</p>
+                <p class="rate dolar-rate">0.15</p>
+            </div>
+        </div>
+        <div class="currency euro-place collapse">
+            <p class="currency-text">EURO</p>
+            <div class="currency-rate">
+                <p class="currency-price euro-price">29.74</p>
+                <p class="rate euro-rate">0.20</p>
+            </div>
+        </div>
+        <div class="currency sterlin-place">
+            <p class="currency-text">STERLIN</p>
+            <div class="currency-rate">
+                <p class="currency-price sterlin-price">34.73</p>
+                <p class="rate sterlin-rate">0.20</p>
+            </div>
+        </div>
+        <div class="currency gr-altin-place">
+            <p class="currency-text currency-text-altin-gr-big">ALTIN(GRAM)</p>
+            <p class="currency-text currency-text-altin-gr-small">ALTIN</p>
+            <div class="currency-rate">
+                <p class="currency-price gr-altin-price">1.694</p>
+                <p class="rate gr-altin-rate">0.54</p>
+            </div>
+        </div>
+        <div class="currency ceyrek-altin-place collapse">
+            <p class="currency-text">ALTIN(ÇEYREK)</p>
+            <div class="currency-rate">
+                <p class="currency-price ceyrek-altin-price">2.758</p>
+                <p class="rate ceyrek-altin-rate">0.14</p>
+            </div>
+        </div>
+        <div class="currency gumus-place collapse">
+            <p class="currency-text bitcoin-text">BITCOIN</p>
+            <div class="currency-rate">
+                <p class="currency-price bitcoin-price">29.306</p>
+                <p class="rate bitcoin-rate">0.36</p>
+            </div>
+        </div>
+        <div class="currency borsa-place">
+            <p class="currency-text">BIST100</p>
+            <div class="currency-rate">
+                <p class="currency-price borsa-price">7.067</p>
+                <p class="rate borsa-rate">3.08</p>
+            </div>
+        </div>
+        <!-- <img src="images/currency.png" alt="currency" class="currency"> -->
+    </div>
+
+    <div class="container-home-intro">    
+        <div class="intro-p-home">
+            <h2>Bora Ecevit Kimdir?</h2>
+            <p class="body-large-regular">
+            
+                <font size="6"> <b>Hakkımda</b><br> </font>
+                <font size="4"> Merhaba! Ben Bora Ecevit, borsa ve finans dünyasında uzmanlaşmış bir yatırım danışmanıyım. Uzun yıllara dayanan tecrübem ve derinlemesine bilgi birikimimle yatırımcıların finansal hedeflerine ulaşmalarına yardımcı oluyorum.</font><br>
+                <br>
+                <font size="6"><b>Misyonum</b><br></font>
+                <font size="4">Amacım, yatırımcıların finansal dünyadaki karmaşıklıkları anlamalarına yardımcı olmak ve onlara güvenli, karlı ve sürdürülebilir yatırım stratejileri sunmaktır. Borsa ve finans piyasalarının dinamiklerini yakından takip ederek, müşterilerimin en iyi yatırım kararlarını almalarına destek oluyorum.</font><br>
+                <br>
+                <font size="6"><b>Değerlerim</b><br></font>
+                <br>
+                <font size="4"><b>* Güvenilirlik:</b> Müşterilerimin finansal geleceğini koruma sorumluluğunu ciddiyetle taşıyorum.<br>
+                    
+                <b>* Şeffaflık: </b> Her zaman açık ve dürüst iletişimi ön planda tutuyorum.<br>
+                
+                <b>* Profesyonellik:</b> İşimde her zaman en yüksek standartları benimsiyorum.<br>
+                
+                <b>* Yenilikçilik:</b> Finans dünyasındaki yenilikleri takip ederek, en güncel ve etkili yatırım stratejilerini uyguluyorum.<br></font>
+                <br>
+                <font size="6"><b>İletişim</b><br></font>
+            
+                <font size="4">Borsa ve finansla ilgili herhangi bir sorunuz veya yatırım danışmanlığı ihtiyaçlarınız için benimle iletişime geçebilirsiniz. Sizlere yardımcı olmaktan memnuniyet duyarım.</font><br>
+                <br>
+                <a class= "clickable-btn body-large-bold kesfet"href="#" onclick="scrollToInquiry(); return false">İletişime Geç</a>
+                            </p>
+
+             <!-- <p class="hide-on-ipad">
+              <h3> Misyonum </h3>
+                Amacım, yatırımcıların finansal dünyadaki karmaşıklıkları anlamalarına yardımcı olmak ve onlara güvenli, karlı ve sürdürülebilir yatırım stratejileri sunmaktır. Borsa ve finans piyasalarının dinamiklerini yakından takip ederek, müşterilerimin en iyi yatırım kararlarını almalarına destek oluyorum.
+            </p>
+
+            <p class="hide-on-ipad">
+                <h3> Değerlerim </h3>
+            
+                <br><b>* Güvenilirlik:</b> Müşterilerimin finansal geleceğini koruma sorumluluğunu ciddiyetle taşıyorum.
+                <br><b>* Şeffaflık:</b> Her zaman açık ve dürüst iletişimi ön planda tutuyorum.
+                <br>* Profesyonellik: İşimde her zaman en yüksek standartları benimsiyorum.
+                <br>* Yenilikçilik: Finans dünyasındaki yenilikleri takip ederek, en güncel ve etkili yatırım stratejilerini uyguluyorum.
+
+                              </p>-->
+
+            <div class="advantages">
+                <!--<div class="place-1">
+                    <img src="images/home.png">
+                    <p class="body-large-bold">Emlak</p>
+                    <p>İstanbul'un en nezih semti Etiler başta olmak üzere, 
+                        İstanbul'un farklı bölgelerinde yatırımınızı 
+                        en doğru şekilde yapmanız için buradayım
+                    </p>
+                </div>-->
+
+               <!--  <div class="place-2">
+                    <img src="images/money.png">
+                    <font size="6"><b><p class="body-large-bold">İletişim</p></b></font>
+                    <p>
+                        <font size="4"><b>Borsa ve finansla ilgili herhangi bir sorunuz veya yatırım danışmanlığı ihtiyaçlarınız için benimle iletişime geçebilirsiniz. Sizlere yardımcı olmaktan memnuniyet duyarım.<br>
+                       </b></font>
+                    </p>
+                </div> -->
+
+                <!-- <div class="place-3">
+                    <img src="images/ecommerce.png">
+                    <p class="body-large-bold">E-Ticaret</p>
+                    <p>We prioritize the quality of
+                        our work and finish it on time</p>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="building-image">
+            <img src="images/bora-foto.png" alt="building" class="building-image-real">
+        </div>
+    </div>
+
+         <div class="container-home youtube-place">
+            <iframe width="850" height="500" src="https://www.youtube.com/embed/m4UuHG7wBV0?si=G3krzzeLhA1low2C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         </div>
+    <div class="container-home emlak">
+        <h2>Bu Bölüm Yapım Aşamasında</h2>
+        <!-- <div class="cards">
+            <div class="card card-1">
+                <div class="card-image">
+                    <img src="images/sultangazi2.png" class="card-image-real">
+                </div>
+
+                <div class="konut-info">
+                    <p class="price body-xlarge-semibold">3.250.000 ₺</p>
+                    <p class="description body-medium-semibold">SULTANGAZİ YUNUS EMRE'DE 130M2 2+1 SATILIK KONUT</p> 
+                    <p class="city-country body-medium-regular">Sultangazi, İstanbul</p>
+                    <div class="detail-info">
+                        <p class="size body-medium-regular">2+1</p>
+                        <img class= "body-medium-regular" src="images/Line 3.svg">
+                        <p class="size body-medium-regular">Yüksek  Giriş</p>
+                        <img src="images/Line 3.svg">
+                        <p class="size body-medium-regular">90m²</p>
+                    </div>
+                </div>
+                <a class= "clickable-btn body-large-bold ilana-git" target="_blank" href="https://www.sahibinden.com/ilan/emlak-konut-satilik-sultangazi-yunus-emre-de-130m2-2-plus1-satilik-konut-1095521171/detay">İlana git</a>
+
+            </div>
+
+            <div class="card card-2">
+                <div class="card-image">
+                    <img src="images/etiler-ev.jpeg" class="card-image-real">
+                </div>
+
+                <div class="konut-info">
+                    <p class="price body-xlarge-semibold">9.150.000 ₺</p>
+                    <p class="description body-medium-semibold">ETİLER'DE MERKEZİ KONUMDA 2+1 90M2 Satılık DAİRE !!</p> 
+                    <p class="city-country body-medium-regular">Etiler, İstanbul</p>
+                    <div class="detail-info">
+                        <p class="size body-medium-regular">2+1</p>
+                        <img class= "body-medium-regular" src="images/Line 3.svg">
+                        <p class="size body-medium-regular">4. Kat</p>
+                        <img src="images/Line 3.svg">
+                        <p class="size body-medium-regular">90m²</p>
+                    </div>
+                </div>
+                <a class= "clickable-btn body-large-bold ilana-git" target="_blank" href="https://www.sahibinden.com/ilan/emlak-konut-satilik-etiler-de-merkezi-konumda-2-plus1-90m2-satilik-daire-1111555007/detay">İlana git</a>
+            </div>
+
+            
+            <div class="card card-3">
+                
+                <div class="card-image">
+                    <img src="images/yenieyüpevleri.png" class="card-image-real">
+                </div>
+                <div class="konut-info">
+                    <p class="price body-xlarge-semibold">5.850.000 ₺</p>
+                    <p class="description body-medium-semibold">YENİ EYÜP EVLERİN'DE 65m2 2+1</p> 
+                    <p class="city-country body-medium-regular">EYÜPSULTAN, İstanbul</p>
+                    <div class="detail-info">
+                        <p class="size body-medium-regular">2+1</p>
+                        <img class= "body-medium-regular" src="images/Line 3.svg">
+                        <p class="size body-medium-regular">Sıfır Daireler</p>
+                        <img src="images/Line 3.svg">
+                        <p class="size body-medium-regular">65m2</p>
+                    </div>
+                </div>
+                <a class= "clickable-btn body-large-bold ilana-git" target="_blank" href="https://www.sahibinden.com/ilan/emlak-konut-satilik-istanbul-un-yeni-merkezi-yeni-eyup-evlerinde-2-plus1-satilik-daire-1119034564/detay/">İlana git</a>
+            </div>
+        </div>
+
+
+        <!-- <div class="cards">
+            <div class="card card-1">
+                <div class="card-image">
+                    <img src="images/sultangazi2.png" class="card-image-real">
+                </div>
+
+                <div class="konut-info">
+                    <p class="price body-xlarge-semibold">3.150.000 ₺</p>
+                    <p class="description body-medium-semibold">SULTANGAZİ YUNUS EMRE'DE 130M2 2+1 SATILIK KONUT</p> 
+                    <p class="city-country body-medium-regular">Sultangazi, İstanbul</p>
+                    <div class="detail-info">
+                        <p class="size body-medium-regular">2+1</p>
+                        <img class= "body-medium-regular" src="images/Line 3.svg">
+                        <p class="size body-medium-regular">Yüksek  Giriş</p>
+                        <img src="images/Line 3.svg">
+                        <p class="size body-medium-regular">90m²</p>
+                    </div>
+                </div>
+                <a class= "clickable-btn body-large-bold ilana-git" target="_blank" href="https://www.sahibinden.com/ilan/emlak-konut-satilik-sultangazi-yunus-emre-de-130m2-2-plus1-satilik-konut-1095521171/detay">İlana git</a>
+
+            </div>
+
+            <div class="card card-2">
+                <div class="card-image">
+                    <img src="images/etiler-ev.jpeg" class="card-image-real">
+                </div>
+
+                <div class="konut-info">
+                    <p class="price body-xlarge-semibold">9.150.000 ₺</p>
+                    <p class="description body-medium-semibold">ETİLER'DE MERKEZİ KONUMDA 2+1 90M2 Satılık DAİRE !!</p> 
+                    <p class="city-country body-medium-regular">Etiler, İstanbul</p>
+                    <div class="detail-info">
+                        <p class="size body-medium-regular">2+1</p>
+                        <img class= "body-medium-regular" src="images/Line 3.svg">
+                        <p class="size body-medium-regular">4. Kat</p>
+                        <img src="images/Line 3.svg">
+                        <p class="size body-medium-regular">90m²</p>
+                    </div>
+                </div>
+                <a class= "clickable-btn body-large-bold ilana-git" target="_blank" href="https://www.sahibinden.com/ilan/emlak-konut-satilik-etiler-de-merkezi-konumda-2-plus1-90m2-satilik-daire-1111555007/detay">İlana git</a>
+            </div>
+
+            
+            <div class="card card-3">
+                
+                <div class="card-image">
+                    <img src="images/sultangazi2.png" class="card-image-real">
+                </div>
+                <div class="konut-info">
+                    <p class="price body-xlarge-semibold">3.150.000 ₺</p>
+                    <p class="description body-medium-semibold">SULTANGAZİ YUNUS EMRE'DE 130M2 2+1 SATILIK KONUT</p> 
+                    <p class="city-country body-medium-regular">Sultangazi, İstanbul</p>
+                    <div class="detail-info">
+                        <p class="size body-medium-regular">2+1</p>
+                        <img class= "body-medium-regular" src="images/Line 3.svg">
+                        <p class="size body-medium-regular">Yüksek  Giriş</p>
+                        <img src="images/Line 3.svg">
+                        <p class="size body-medium-regular">90m2</p>
+                    </div>
+                </div>
+                <a class= "clickable-btn body-large-bold ilana-git" href="#">İlana git</a>
+            </div>
+        </div> -->
+        <!-- <a class= "clickable-btn body-large-bold kesfet" href="emlak.html" target="_self" >Daha Fazla Keşfet</a> -->
+    </div>
+
+    <div class="container-home finans">
+        <!-- <h2>Finans</h2>
+        <div class="cards finans-home-cards">
+            <div class="card-finans card-1">
+                <div class="finans-image">
+                    <img src="images/piramid-blog.png" height="250" width="250">
+                </div>
+
+                <div class="finans-paragraphs">
+                    <p class="body-xlarge-bold head">Dünyanın En Büyük Finansal Piramid Sistemi</p>
+                    <p class="body-small-regular date">11.07.2022</p>
+                    <p class="body-small-regular info">Dolandırıcıların 100 yıldan fazla süredir nasıl aynı şemaya göre çalıştıklarını merak ettiniz mi? Gelin birlikte inceleyelim...</p>
+                    <a href="blog-1.html" target="_parent" class="body-small-regular">Devamını Oku</a>
+                </div>
+            </div>
+
+            <div class="card-finans card-2">
+                <div class="finans-image">
+                    <img src="images/butce-blog.png" height="250" width="250">
+                </div>
+
+                <div class="finans-paragraphs">
+                    <p class="body-xlarge-bold">Enflasyona Karşı Tutum Nasıl Olmalıdır?</p>
+                    <p class="body-small-regular">03.11.2022</p>
+                    <p class="body-small-regular">Enflasyona karşı tutum, 
+                        öncelikle ülkenin para politikasının yürütülmesine bağlı olarak değişebilir... </p>
+                    <a href="blog-2.html" target="_parent" class="body-small-regular">Devamını Oku</a>
+                </div>
+            </div>
+        </div>
+        <!-- <a class= "clickable-btn body-large-bold kesfet" href="finance.html" target="_self" >Daha Fazla Keşfet</a> -->
+    </div>
+
+        <div class="whatsapp-logo">
+            <a href="https://wa.me/905454212652" target="_blank">
+                <img src="images/whatsapp-icon.svg">
+            </a>
+        </div>
+
+    <!-- <div class="container-home e-ticaret">
+        <h2>E-Ticaret</h2>
+        <div class="cards">
+            <div class="card-eticaret">
+                <div class="eticaret-image">
+                    <img src="images/eticaret-girl.png">
+                </div>
+
+                <div class="eticaret-paragraphs">
+                    <p class="body-small-medium">GAP</p>
+                    <p class="body-xsmall-medium">High Rise Stride Ankle</p>
+                    <p class="body-large-medium">$88.00</p>
+                    <div class="product-info">
+                        <img src="images/star-icon">
+                        <p class="point">4.2</p>
+                        <p class="review-number">(432 Reviews)</p>
+                    </div>                
+                </div>
+            </div>
+
+            <div class="card-eticaret">
+                <div class="eticaret-image">
+                    <img src="images/eticaret-girl.png">
+                </div>
+
+                <div class="eticaret-paragraphs">
+                    <p class="body-small-medium">GAP</p>
+                    <p class="body-xsmall-medium">High Rise Stride Ankle</p>
+                    <p class="body-large-medium">$88.00</p>
+                    <div class="product-info">
+                        <img src="images/star-icon">
+                        <p class="point">4.2</p>
+                        <p class="review-number">(432 Reviews)</p>
+                    </div>                
+                </div>
+            </div>
+
+            <div class="card-eticaret">
+                <div class="eticaret-image">
+                    <img src="images/eticaret-girl.png">
+                </div>
+
+                <div class="eticaret-paragraphs">
+                    <p class="body-small-medium">GAP</p>
+                    <p class="body-xsmall-medium">High Rise Stride Ankle</p>
+                    <p class="body-large-medium">$88.00</p>
+                    <div class="product-info">
+                        <img src="images/star-icon">
+                        <p class="point">4.2</p>
+                        <p class="review-number">(432 Reviews)</p>
+                    </div>                
+                </div>
+            </div>
+
+        </div>
+        <a class= "clickable-btn body-large-bold kesfet"href="#" >Daha Fazla Keşfet</a>
+    </div> -->
+
+    <div class="container-home inquiry">
+        <form class="home-p" action="https://formsubmit.co/8bf3859026a07f9c170e175bc6560e4c" method="POST">
+            <div class="image-place">
+                <img src="images/finans-inquiry-image.png">
+            </div>
+            <div class="paragraphs">
+                <h3>Benimle İletişime Geçebilirsiniz</h3>
+                <div class="isim-soyisim">
+                    <div class="identify">
+                        <input type="text" name="isim" placeholder="İsim">
+                        <input type="text" name="soyisim" placeholder="Soyisim">
+                        <input type="hidden" name="_next" value= "https://boraecevit.com/tesekkurler.html">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                </div>
+                <div class="isim-soyisim">
+                    <div class="identify">
+                        <input type="text" name="e-posta" placeholder="Eposta">
+                        <input type="text" name="telefon" placeholder="Telefon">
+                    </div>
+                </div>
+                <div class="notunuz-plc">
+                    <input class= "notunuz" type="text" name="notunuz" placeholder="Notunuz">
+                </div>
+                <div class="button">
+                    <button class="clickable-btn body-large-bold gonder" type = 'submit'>Gönder</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <footer>
+        <div class="footer-container logo-social-media">
+            <img src="images/logo.svg">
+            <ul class="icons">
+                <li> <a href= "https://instagram.com/boraecevitrealestate/" target='_blank'> <img src="images/instagram.svg" target="_blank"></a></li>
+                <li> <a href="https://x.com/boraecevitest" target="_blank"> <img src="images/twitter.svg" target="_blank"></a></li>
+                <li> <a href="https://www.youtube.com/@TrestinEcevit" target="_blank"> <img src="images/youtube.svg" target="_blank"></a></li>
+                <li> <a href="https://wa.me/905454212652" target="_blank"> <img src="images/whatsapp.svg" target="_blank"></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-container navigation footer-navigation">
+            <ul class="navigation-buttons">
+                <li><a href="index.html" target="_self" class="btn body-large-medium home active">Bora Ecevit Kimdir?</a></li>
+                <li><a href="emlak.html" target="_self" class="btn body-large-medium about">Emlak</a></li>
+                <li><a href="finance.html" target="_self" class="btn body-large-medium services">Finans</a></li>
+                <!-- <li><a href="/projects" target="_blank" class="btn body-large-medium projects">E-Ticaret</a></li> -->
+            </ul>
+        </div>
+
+        <div class="footer-container footer-infos">
+            <ul class="information-bars">
+                <li><p class="btn body-large-medium home">Bora Ecevit</p></li>
+                <li><p class="btn body-large-medium home">"Kader Gayrete Aşıktır"</p></li>
+                <li><a href="mailto:info@boraecevit.com" target="_blank" class="btn body-large-medium services">info@boraecevit.com</a></li>
+                <li><a href="https://wa.me/905454212652" target="_blank" class="btn body-large-medium projects">+90 0545 421 2652</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <p class="copyright-p copyright-p-spk body-xsmall-medium">Burada yer alan yatırım bilgi, yorum ve tavsiyeleri yatırım danışmanlığı kapsamında değildir. Yatırım danışmanlığı hizmeti, kişilerin risk ve getiri tercihleri dikkate alınarak kişiye özel sunulmaktadır. Burada yer alan ve hiçbir şekilde yönlendirici nitelikte olmayan içerik, yorum ve tavsiyeler ise genel niteliktedir. Bu tavsiyeler mali durumunuz ile risk ve getiri tercihlerinize uygun olmayabilir. Bu nedenle, sadece burada yer alan bilgilere dayanılarak yatırım kararı verilmesi beklentilerinize uygun sonuçlar doğurmayabilir.</p>
+        <p class="copyright-p body-xsmall-medium">Copyright © 2023. Tüm hakları saklıdır.</p>
+    </div>
+    <script src="index.js"></script>
+</body>
