@@ -1,0 +1,530 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bora Ecevit - Emlak Danışmanlık</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap');</style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+</head>
+
+
+<body id="the-finance">
+    <header>
+        <div class="logo-image-place">
+            <img src="images/logo.svg" alt="logo" class="logo">
+        </div>
+        <button aria-label="Open Navigation" class="open-nav">&#9776;</button>
+
+        <nav class="navbar">
+            <button aria-label="Close navigation" class="close-nav">&times;</button>
+            <ul class="buttons navbar-buttons">
+                <li><a href="index.html"    target="_self" class="btn body-large-medium home">Bora Ecevit Kimdir?</a></li>
+                <li><a href="emlak.html"    target="_self" class="btn body-large-medium about">Emlak</a></li>
+                <li><a href="finance.html"  target="_self" class="btn body-large-medium services active">Finans</a></li>
+                <!-- <li><a href="eticaret.html" target="_self" class="btn body-large-medium projects">E-Ticaret</a></li> -->
+            </ul>
+        </nav>
+        <a class="clickable-btn body-large-bold iletisim-btn" href="#" onclick="scrollToInquiry(); return false">İletişim</a>
+    </header>
+
+    <!--<div class="currency-place">
+        <div class="currency dolar-place">
+            <p class="currency-text">DOLAR</p>
+            <div class="currency-rate">
+                <p class="currency-price dolar-price">26.90</p>
+                <p class="rate dolar-rate">0.15</p>
+            </div>
+        </div>
+        <div class="currency euro-place">
+            <p class="currency-text">EURO</p>
+            <div class="currency-rate">
+                <p class="currency-price euro-price">29.74</p>
+                <p class="rate euro-rate">0.20</p>
+            </div>
+        </div>
+        <div class="currency sterlin-place collapse">
+            <p class="currency-text">STERLIN</p>
+            <div class="currency-rate">
+                <p class="currency-price sterlin-price">34.73</p>
+                <p class="rate sterlin-rate">0.23</p>
+            </div>
+        </div>
+        <div class="currency gr-altin-place">
+            <p class="currency-text currency-text-altin-gr-big">ALTIN(GRAM)</p>
+            <p class="currency-text currency-text-altin-gr-small">ALTIN</p>
+            <div class="currency-rate">
+                <p class="currency-price gr-altin-price">1.694</p>
+                <p class="rate gr-altin-rate">0.54</p>
+            </div>
+        </div>
+        <div class="currency ceyrek-altin-place collapse">
+            <p class="currency-text">ALTIN(ÇEYREK)</p>
+            <div class="currency-rate">
+                <p class="currency-price ceyrek-altin-price">2.758</p>
+                <p class="rate ceyrek-altin-rate">0.14</p>
+            </div>
+        </div>
+        <div class="currency gumus-place collapse">
+            <p class="currency-text bitcoin-text">BITCOIN</p>
+            <div class="currency-rate">
+                <p class="currency-price bitcoin-price">29.306</p>
+                <p class="rate bitcoin-rate">0.36</p>
+            </div>
+        </div>
+        <div class="currency borsa-place">
+            <p class="currency-text">BIST100</p>
+            <div class="currency-rate">
+                <p class="currency-price borsa-price">7.067</p>
+                <p class="rate borsa-rate">3.08</p>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+    <div class="container-home-intro">    
+        <div class="intro-p-home">
+            <h2> Finansal Özgür </h2>
+            <p class="body-large-regular">
+                <font size="4"><b>Merhaba,</b><br></font>
+                
+                <font size="4">Finansal özgürlük, hayal gibi gelebilir, ancak doğru stratejiler ve kararlılıkla bu hedefe ulaşmak mümkündür. Bu yolculuğa kendi hikayemle başlayarak, size de ilham vermek istiyorum.<br>
+                <br></font>
+                <br>
+                <font size="6"><b>Kendi Hikayem</b><br></font>
+                
+            
+                
+                <font size="4">"Yıllar önce ben de herkes gibi sabah 9 akşam 5 çalışarak hayatımı sürdüren biriydim. Finansal özgürlüğe ulaşmanın sadece hayal olduğunu düşünürdüm. Ancak, finansal okuryazarlığımı artırmaya karar verdim ve bu süreçte birçok şey öğrendim. Yatırım yapmayı, harcamalarımı kontrol etmeyi ve pasif gelir kaynakları yaratmayı öğrendim. Bugün, finansal özgürlüğe ulaşmış bir birey olarak, bu yolculukta edindiğim bilgileri ve tecrübeleri sizinle paylaşmak istiyorum."<br>
+                <br></font>
+                <font size="6"><b>Finansal Özgürlük Nedir?</b><br></font>
+                <br>
+                <font size="4">Finansal özgürlük, bireyin günlük yaşamını sürdürebilmek için aktif olarak çalışmak zorunda olmadan, pasif gelir kaynaklarıyla maddi ihtiyaçlarını karşılayabilmesi durumudur. Bu, daha fazla zaman özgürlüğü, stresin azalması ve hayallerin peşinden gitme fırsatı sunar.<br>
+            </font>
+                <br>
+                <font size="6"><b>Finansal Özgürlüğe Ulaşmanın Adımları</b><br></font>
+                <br>
+                <font size="4"><b>Finansal Okuryazarlık:</b> İlk adım, finansal terimleri ve konseptleri öğrenmektir. Bütçeleme, tasarruf, yatırım ve borç yönetimi konularında bilgi sahibi olmak çok önemlidir.<br>
+                
+                <b>Bütçe Oluşturma ve Takip:</b> Gelir ve giderlerinizi dikkatlice takip ederek, gereksiz harcamaları minimize edin. Tasarruf etmek için bir bütçe planı oluşturun ve buna sadık kalın.<br>
+                
+                <b>Borçları Yönetme:</b> Yüksek faizli borçlardan kurtulmak, finansal özgürlüğe giden yolda önemli bir adımdır. Borçlarınızı yapılandırarak ve ödeme planları oluşturarak borç yükünüzü azaltın.<br>
+                
+                <b>Yatırım Yapma:</b> Pasif gelir elde etmenin en etkili yollarından biri yatırım yapmaktır. Hisse senetleri, gayrimenkul, fonlar gibi çeşitli yatırım araçlarını araştırarak portföyünüzü çeşitlendirin.<br>
+                
+                <b>Pasif Gelir Kaynakları Oluşturma:</b> Blog yazarlığı, e-kitap yayınlama, online kurslar veya kiralık gayrimenkuller gibi pasif gelir kaynakları oluşturarak gelir çeşitliliğinizi artırın.<br>
+                
+                <b>Acil Durum Fonu Oluşturma:</b> Beklenmedik durumlar için bir acil durum fonu oluşturmak, finansal istikrarınızı korumanıza yardımcı olur.<br>
+                <br></font>
+                <br>
+                <font size="6"><b>Benimle Bu Yolculuğa Çıkın</b><br></font>
+                
+                <font size="4">Benimle birlikte, adım adım finansal özgürlüğe ulaşabilir ve hayallerinizi gerçekleştirebilirsiniz.
+                
+                Sorularınız veya danışmanlık talepleriniz için benimle iletişime geçmekten çekinmeyin. Unutmayın, finansal özgürlük bir yolculuktur ve bu yolculukta yalnız değilsiniz.</font>
+                
+            </p>
+
+            
+            <a class= "clickable-btn body-large-bold kesfet"href="#" onclick="scrollToInquiry(); return false">İletişime Geç</a>
+            <div class="stats">
+                <div class="musteri-stats">
+                    <h2 class= "musteri-sayisi">20 <span class='plus-sign'>+</span></h2>
+                    <p class= "musteri-yazisi body-semibold-grey">Hisse</p>
+                </div>
+
+                <div class="proje-stats">
+                    <h2 class= "proje-sayisi">500.000 <span class='plus-sign'>₺</span></h2>
+                    <p class= "proje-yazisi body-semibold-grey">Getiri</p>
+                </div>
+            </div>  
+        </div>
+
+        <div class="building-image">
+            <img src="images/bora-foto.png" alt="building" class="building-image-real">
+        </div>
+    </div>
+
+    <!-- <div class="container-home container-home-tables">
+        <h2>BETRADER PORTFÖYÜM</h2>
+        
+
+        <div class="tables">
+            <table class="hisseler-table">
+                <tr>
+                    <th class="table-header left-top menkul">MENKUL</th>
+                    <th class="table-header">FİYAT</th>
+                    <th class="table-header right-top">DEĞİŞİM</th>
+                </tr>
+                <tr>
+                     
+                
+                    <td class="menkul row-1"><img src="images/erdemirlogo.png" height="17" width="60">EREGL</td>
+                    <td class="fiyat eregl-fiyat row-1">0</td>
+                    <td class="degisim eregl-degisim row-1">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-2"><img src="images/froto.png" height="20" width="60"> FROTO</td>
+                    <td class="fiyat froto-fiyat row-2">0</td>
+                    <td class="degisim froto-degisim row-2">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-1"><img src="images/siselogo.png" height="20" width="60"> SISE</td>
+                    <td class="fiyat sise-fiyat row-1">0</td>
+                    <td class="degisim sise-degisim row-1">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-2"><img src="images/tupraslogo.png" height="10" width="50"> TUPRS</td>
+                    <td class="fiyat tuprs-fiyat row-2">0</td>
+                    <td class="degisim tuprs-degisim row-2">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-1"><img src="images/turkhava.png" height="17" width="60"> THYAO</td>
+                    <td class="fiyat thyao-fiyat row-1">0</td>
+                    <td class="degisim thyao-degisim row-1">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-2"><img src="images/islogo2.png" height="15" width="50">ISCTR (C)</td>
+                    <td class="fiyat isctr-fiyat row-2">0</td>
+                    <td class="degisim isctr-degisim row-2">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-1"><img src="images/garantilogo.png" height="15" width="50"> GARAN</td>
+                    <td class="fiyat garan-fiyat row-1">0</td>
+                    <td class="degisim garan-degisim row-1">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-2"><img src="images/enerjilogo.png" height="25" width="50"> ENJSA</td>
+                    <td class="fiyat enjsa-fiyat row-2">0</td>
+                    <td class="degisim enjsa-degisim row-2">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-1"><img src="images/kchologo.png" height="20" width="40"> KCHOL</td>
+                    <td class="fiyat kchol-fiyat row-1">0</td>
+                    <td class="degisim kchol-degisim row-1">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-2 left-bottom"><img src="images/alarkologo.png" height="17" width="60"> ALARK</td>
+                    <td class="fiyat alark-fiyat row-2">0</td>
+                    <td class="degisim alark-degisim row-2 right-bottom">%0.00</td>
+                </tr>
+            </table>
+
+            <table class="hisseler-table">
+                <tr>
+                    <th class="table-header left-top">MENKUL</th>
+                    <th class="table-header">FİYAT</th>
+                    <th class="table-header right-top">DEĞİŞİM</th>
+                </tr>
+                <tr>
+                    <td class="menkul row-1"><img src="images/hektaslogo.png" height="25" width="70"> HEKTS</td>
+                    <td class="fiyat hekts-fiyat row-1">0</td>
+                    <td class="degisim hekts-degisim row-1">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-2"><img src="images/kardemirlogo.png" height="17" width="40"> KRDMA(A)</td>
+                    <td class="fiyat krdma-fiyat row-2">0</td>
+                    <td class="degisim krdma-degisim row-2">%0.00</td>
+                </tr>
+                <tr>
+                    
+                    <td class="menkul row-1"><img src="images/isdmrlogo.png" height="20" width="60"> ISDMR</td>
+                    <td class="fiyat isdmr-fiyat row-1">0</td>
+                    <td class="degisim isdmr-degisim row-1">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-2"><img src="images/arceliklogo.png" height="17" width="60"> ARCLK</td>
+                    <td class="fiyat arclk-fiyat row-2">0</td>
+                    <td class="degisim arclk-degisim row-2">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-1"><img src="images/astorlogo.png" height="17" width="40"> ASTOR</td>
+                    <td class="fiyat astor-fiyat row-1">0</td>
+                    <td class="degisim astor-degisim row-1">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-2"><img src="images/bimaslogo.png" height="17" width="40"> BIMAS</td>
+                    <td class="fiyat bimas-fiyat row-2">0</td>
+                    <td class="degisim bimas-degisim row-2">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-1"><img src="images/sasalogo.png" height="17" width="60">SASA</td>
+                    <td class="fiyat sasa-fiyat row-1">0</td>
+                    <td class="degisim sasa-degisim row-1">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-2"><img src="images/enkalogo.png" height="14" width="50"> ENKAI</td>
+                    <td class="fiyat enkai-fiyat row-2">0</td>
+                    <td class="degisim enkai-degisim row-2">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-1"><img src="images/tcelllogo.svg" height="17" width="60"> TCELL</td>
+                    <td class="fiyat tcell-fiyat row-1">0</td>
+                    <td class="degisim tcell-degisim row-1">%0.00</td>
+                </tr>
+                <tr>
+                    <td class="menkul row-2 left-bottom"><img src="images/tofaslogo.png" height="17" width="60"> TOASO</td>
+                    <td class="fiyat toaso-fiyat row-2">0</td>
+                    <td class="degisim toaso-degisim row-2 right-bottom">%0.00</td>
+                </tr>
+            </table>
+           
+        </div>
+        
+            
+            <p>Hisseler Gecikmeli Gösterilmektedir.</p>
+    
+    </div> -->
+
+
+    
+
+    <div class="container-home finans">
+        <h2 class>Yapım Aşamasında</h2> 
+        <!-- <div class="cards finans-home-cards">
+            <div class="card-finans card-1">
+                <div class="finans-image">
+                    <img src="images/piramid-blog.png" height="250" width="250">
+                </div>
+
+                <div class="finans-paragraphs">
+                    <p class="body-xlarge-bold head">Dünyanın En Büyük Finansal Piramid Sistemi</p>
+                    <p class="body-small-regular date">11.07.2022</p>
+                    <p class="body-small-regular info">Dolandırıcıların 100 yıldan fazla süredir nasıl aynı şemaya göre çalıştıklarını merak ettiniz mi? Gelin birlikte inceleyelim...</p>
+                    <a href="blog-1.html" target="_parent" class="body-small-regular">Devamını Oku</a>
+                </div>
+            </div>
+
+            <div class="card-finans card-2">
+                <div class="finans-image">
+                    <img src="images/butce-blog.png" height="250" width="250">
+                </div>
+
+                <div class="finans-paragraphs">
+                    <p class="body-xlarge-bold">Enflasyona Karşı Tutum Nasıl Olmalıdır?</p>
+                    <p class="body-small-regular">03.11.2022</p>
+                    <p class="body-small-regular">Enflasyona karşı tutum, 
+                        öncelikle ülkenin para politikasının yürütülmesine bağlı olarak değişebilir... </p>
+                    <a href="blog-2.html" target="_parent" class="body-small-regular">Devamını Oku</a>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- <div class="cards finans-home-cards">
+            <div class="card-finans card-1">
+                <div class="finans-image">
+                    <img src="images/hedef-blog.png" width="250" height="250">
+                </div>
+
+                <div class="finans-paragraphs">
+                    <p class="body-xlarge-bold head">Harcama Planı ile Finansal Hedefler Oluşturma</p>
+                    <p class="body-small-regular date">11.07.2022</p>
+                    <p class="body-small-regular info">Planlama ile tasarruf süreçlerini kontrol ederek hedeflerine önemli katkı sağlayabilirsin...</p>
+                    <a href="blog-3.html" target="_parent" class="body-small-regular">Devamını Oku</a>
+                </div>
+            </div>
+
+            <div class="card-finans card-2">
+                <div class="finans-image">
+                    <img src="images/dolandiricilik-blog.png" width="250" height="250">
+                </div>
+
+                <div class="finans-paragraphs">
+                    <p class="body-xlarge-bold">Finansal dolandırıcılık planlarının ana işaretleri</p>
+                    <p class="body-small-regular">03.11.2022</p>
+                    <p class="body-small-regular">
+                        Bir yatırım fonundaki Ponzi şemasını veya piramit şemasını tanımanıza yardımcı olacak 5 ortak özellik aşağıdakiler gibidir... </p>
+                    <a href="blog-4.html" target="_parent" class="body-small-regular">Devamını Oku</a>
+                </div>
+            </div>
+        </div> -->
+        <!-- <a class= "clickable-btn body-large-bold kesfet" href="finance.html" target="_self" >Daha Fazla Keşfet</a> -->
+    </div>
+
+    <!-- <div class="container-home finans-haberleri">
+        <div class="cards haber">
+            <div class="card">
+                <img src="images/finans-haber-image.png">
+                <p class="body-xlarge-bold">Blox reality startup Lorem ipsum od dillogi bell in the city</p>
+                <p class="body-small-regular">Lörem ipsum od ohet dilogi. 
+                    Bell trabel, samuligt, ohöbel utom diska. 
+                    Jinesade bel när feras redorade i belogi. 
+                    FAR paratyp i muvåning, och pesask vyfisat.</p>
+                <a href="#" class="body-small-regular">Haberin Devamını Oku</a>
+            </div>
+
+            <div class="card">
+                <img src="images/finans-haber-image.png">
+                <p class="body-xlarge-bold">Blox reality startup Lorem ipsum od dillogi bell in the city</p>
+                <p class="body-small-regular">Lörem ipsum od ohet dilogi. 
+                    Bell trabel, samuligt, ohöbel utom diska. 
+                    Jinesade bel när feras redorade i belogi. 
+                    FAR paratyp i muvåning, och pesask vyfisat.</p>
+                <a href="#" class="body-small-regular">Haberin Devamını Oku</a>
+            </div>
+
+            <div class="card">
+                <img src="images/finans-haber-image.png">
+                <p class="body-xlarge-bold">Blox reality startup Lorem ipsum od dillogi bell in the city</p>
+                <p class="body-small-regular">Lörem ipsum od ohet dilogi. 
+                    Bell trabel, samuligt, ohöbel utom diska. 
+                    Jinesade bel när feras redorade i belogi. 
+                    FAR paratyp i muvåning, och pesask vyfisat.</p>
+                <a href="#" class="body-small-regular">Haberin Devamını Oku</a>
+            </div>
+        
+        </div>
+
+        <div class="cards haber">
+            <div class="card">
+                <img src="images/finans-haber-image.png">
+                <p class="body-xlarge-bold">Blox reality startup Lorem ipsum od dillogi bell in the city</p>
+                <p class="body-small-regular">Lörem ipsum od ohet dilogi. 
+                    Bell trabel, samuligt, ohöbel utom diska. 
+                    Jinesade bel när feras redorade i belogi. 
+                    FAR paratyp i muvåning, och pesask vyfisat.</p>
+                <a href="#" class="body-small-regular">Haberin Devamını Oku</a>
+            </div>
+
+            <div class="card">
+                <img src="images/finans-haber-image.png">
+                <p class="body-xlarge-bold">Blox reality startup Lorem ipsum od dillogi bell in the city</p>
+                <p class="body-small-regular">Lörem ipsum od ohet dilogi. 
+                    Bell trabel, samuligt, ohöbel utom diska. 
+                    Jinesade bel när feras redorade i belogi. 
+                    FAR paratyp i muvåning, och pesask vyfisat.</p>
+                <a href="#" class="body-small-regular">Haberin Devamını Oku</a>
+            </div>
+
+            <div class="card">
+                <img src="images/finans-haber-image.png">
+                <p class="body-xlarge-bold">Blox reality startup Lorem ipsum od dillogi bell in the city</p>
+                <p class="body-small-regular">Lörem ipsum od ohet dilogi. 
+                    Bell trabel, samuligt, ohöbel utom diska. 
+                    Jinesade bel när feras redorade i belogi. 
+                    FAR paratyp i muvåning, och pesask vyfisat.</p>
+                <a href="#" class="body-small-regular">Haberin Devamını Oku</a>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container-home container-home-instagram instagram">
+        <!-- <h2 class="instagram-header">Instagram Gönderileri</h2>
+        <div class="posts">
+            <div class="post">
+                <a href= "https://instagram.com/boraecevitrealestate/" target='_blank' class="story link-1"> 
+                    <img src="images/story-1.png"> 
+                </a>
+            </div>
+            <div class="post">
+                <a href= "https://instagram.com/boraecevitrealestate/" target='_blank' class="story link-1"> 
+                    <img src="images/story-2.png">
+                </a>
+            </div>
+            <div class="post">
+                <a href= "https://instagram.com/boraecevitrealestate/" target='_blank' class="story link-1"> 
+                    <img src="images/story-3.png">
+                </a>
+            </div>
+        </div>
+
+        <div class="posts">
+            <div class="post">
+                <a href= "https://instagram.com/boraecevitrealestate/" target='_blank' class="story link-1"> 
+                    <img src="images/story-4.png"> 
+                </a>
+            </div>
+            <div class="post">
+                <a href= "https://instagram.com/boraecevitrealestate/" target='_blank' class="story link-1"> 
+                    <img src="images/story-5.png" alt="instagram">
+                </a>
+            </div>
+            <div class="post">
+                <a href= "https://instagram.com/boraecevitrealestate/" target='_blank' class="story link-1"> 
+                    <img src="images/story-6.png">
+                </a>
+            </div>
+        </div>
+        <a class="btn-white body-medium-regular" href="https://instagram.com/boraecevitrealestate/" target="_blank">Daha Fazla Gönderi Gör</a> -->
+    </div>
+
+    <div class="container-home inquiry">
+        <form class="home-p" action="https://formsubmit.co/8bf3859026a07f9c170e175bc6560e4c" method="POST">
+            <div class="image-place">
+                <img src="images/finans-inquiry-image.png">
+            </div>
+            <div class="paragraphs">
+                <h3>İletişime Geçelim</h3>
+                <div class="isim-soyisim">
+                    <div class="identify">
+                        <input type="text" name="isim" placeholder="İsim">
+                        <input type="text" name="soyisim" placeholder="Soyisim">
+                        <input type="hidden" name="_next" value= "https://boraecevit.com/tesekkurler.html">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                </div>
+                <div class="isim-soyisim">
+                    <div class="identify">
+                        <input type="text" name="e-posta" placeholder="Eposta">
+                        <input type="text" name="telefon" placeholder="Telefon">
+                    </div>
+                </div>
+                <div class="notunuz-plc">
+                    <div>
+                        <input class= "notunuz" type="text" name="notunuz" placeholder="Notunuz">
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="clickable-btn body-large-bold gonder" type = 'submit'>Gönder</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="whatsapp-logo">
+        <a href="https://wa.me/905454212652" target="_blank">
+            <img src="images/whatsapp-icon.svg">
+        </a>
+    </div>
+
+
+    <footer>
+        <div class="footer-container logo-social-media">
+            <img src="images/logo.svg">
+            <ul class="icons">
+                <li> <a href= "https://instagram.com/boraecevitrealestate/" target='_blank'> <img src="images/instagram.svg" target="_blank"></a></li>
+                <li> <a href="https://x.com/boraecevitest" target="_blank"> <img src="images/twitter.svg" target="_blank"></a></li>
+                <li> <a href="https://www.youtube.com/@TrestinEcevit" target="_blank"> <img src="images/youtube.svg" target="_blank"></a></li>
+                <li> <a href="https://wa.me/905454212652" target="_blank"> <img src="images/whatsapp.svg" target="_blank"></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-container navigation footer-navigation">
+            <ul class="navigation-buttons">
+                <li><a href="index.html" target="_self" class="btn body-large-medium home">Bora Ecevit Kimdir?</a></li>
+                <li><a href="emlak.html" target="_self" class="btn body-large-medium about">Emlak</a></li>
+                <li><a href="finance.html" target="_self" class="btn body-large-medium services active">Finans</a></li>
+                <!-- <li><a href="/projects" target="_blank" class="btn body-large-medium projects">E-Ticaret</a></li> -->
+            </ul>
+        </div>
+
+        <div class="footer-container footer-infos">
+            <ul class="information-bars">
+                <li><p class="btn body-large-medium home">Bora Ecevit</p></li>
+                <li><p class="btn body-large-medium home">"Kader Gayrete Aşıktır"</p></li>
+                <li><a href="mailto:info@boraecevit.com" target="_blank" class="btn body-large-medium services">info@boraecevit.com</a></li>
+                <li><a href="https://wa.me/905454212652" target="_blank" class="btn body-large-medium projects">+90 0545 421 2652</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <p class="copyright-p copyright-p-spk body-xsmall-medium">Burada yer alan yatırım bilgi, yorum ve tavsiyeleri yatırım danışmanlığı kapsamında değildir. Yatırım danışmanlığı hizmeti, kişilerin risk ve getiri tercihleri dikkate alınarak kişiye özel sunulmaktadır. Burada yer alan ve hiçbir şekilde yönlendirici nitelikte olmayan içerik, yorum ve tavsiyeler ise genel niteliktedir. Bu tavsiyeler mali durumunuz ile risk ve getiri tercihlerinize uygun olmayabilir. Bu nedenle, sadece burada yer alan bilgilere dayanılarak yatırım kararı verilmesi beklentilerinize uygun sonuçlar doğurmayabilir.</p>
+        <p class="copyright-p body-xsmall-medium">Copyright © 2023. Tüm hakları saklıdır.</p>
+    </div>
+    <script src="index.js"></script>
+</body>
